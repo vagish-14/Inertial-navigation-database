@@ -1,0 +1,73 @@
+.add_product{
+    width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.add_product_card{
+    width: 700px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.add_card_top{
+    width: 100%;
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+  padding: 20px;
+  position: relative;
+  background-color: #4fc3a1;
+  color: #fff;
+}
+#btn-close {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+    cursor: pointer;
+}
+.add_card_content {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+.form_holder{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px auto;
+}
+.form_holder h3{
+    margin-bottom: 5px;
+}
+.form_holder input[type='text']{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #777;
+    margin-bottom: 5px;
+}
+.form_holder input{
+    margin-bottom: 5px;
+}
+.add_card_content button{
+    padding: 10px 30px;
+    background-color: #4fc3a1;
+    border: none;
+    color: #fff;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
